@@ -186,10 +186,6 @@ client.on("interactionCreate", async (interaction) => {
 
     }
 });
-client.login(token)
-
-
-
 
 // Anti Crash:
 process.on("uncaughtException", (err, origin) => {
@@ -218,3 +214,5 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
   console.log('Sunucu ${port} numaralı bağlantı noktasında yürütülüyor.');
 });
+
+client.login(process.env.token)
