@@ -175,7 +175,7 @@ client.on("interactionCreate", async (interaction) => {
         user.send(`
 ❎ __Kayıt Başvurusu__
 
-> \`📌\` Selam ${user.toString()}, Maalesef **${interaction.guild.name}** adlı sunucuya atmış oldugun başvuru \`❌reddedildi\`. \n> \`📌\` Dost olarak katılım sağlamak istiyorsan kayıt odasında bekliyoruz.
+> \`📌\` Selam ${user.toString()}, Maalesef **${interaction.guild.name}** adlı sunucuya atmış oldugun ekip başvurusu \`❌reddedildi\`. \n> \`📌\` Dost olarak katılım sağlamak istiyorsan kayıt odasında bekliyoruz.
 
 **SCL E-SPORTS**
 `);
