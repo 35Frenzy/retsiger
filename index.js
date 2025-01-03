@@ -180,7 +180,7 @@ client.on("interactionCreate", async (interaction) => {
 **SCL E-SPORTS**
 `);
 
-        interaction.channel.send({ content: `❎ Başvuru reddedildi!, ${user.toString()}'a DM'den reddedildi mesajı gönderildi.`, ephemeral: false });
+        interaction.channel.send({ content: `❎ Ekip Başvurusu reddedildi!, ${user.toString()}'a DM'den reddedildi mesajı gönderildi.`, ephemeral: false });
         msg.delete();
         fdb.delete(`basvuru_sistem.server_${interaction.guild.id}.basvuranlar.basvuru-${interaction.message.id}`);
 
